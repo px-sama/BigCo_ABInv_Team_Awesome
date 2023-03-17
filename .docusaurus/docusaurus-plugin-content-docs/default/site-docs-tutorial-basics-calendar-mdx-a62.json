@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/Calendar",
+  "id": "tutorial-basics/Calendar",
+  "title": "Calendar",
+  "description": "This views in this data set collectively represent a robust series of definitions for the most often used time periods within the Gregorian Calendar. These views can either be used for reference if loading calendar elements as part of development of a reporting solution or referenced when direct querying sales, shipment or production data to analyze STRs or STWs within a given time period such as Days, Calendar Weeks, ISO Weeks, Months, Quarters or Trimesters.",
+  "source": "@site/docs/tutorial-basics/Calendar.mdx",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/Calendar",
+  "permalink": "/docs/tutorial-basics/Calendar",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/Calendar.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  },
+  "next": {
+    "title": "create-a-page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+  }
+}
