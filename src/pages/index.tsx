@@ -4,8 +4,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@docusaurus/theme-classic/lib/theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { QueryScroller } from '../components/QueryScroller';
-import LiveDemo from "../modules/index-live-demo"
 
 import styles from './index.module.css';
 
@@ -37,8 +35,6 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <QueryScroller />
-        <LiveDemo />
       </main>
     </Layout>
   );

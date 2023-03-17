@@ -15,33 +15,25 @@ const S = [3, 1, 6, 10]
 const M = [3, 0, 4, 8]
 const L = [4, 0, 4, 8]
 
-const getTopByIndex = (m: number[], index: 1 | 2 | 3 | 4): number => {
+const getTopByIndex = (m: number[], index: 1 | 2): number => {
   const scale = {
     1: 25 * (m[0] ?? 0),
     2: -25 * (m[1] ?? 0),
-    3: -25 * (m[2] ?? 0),
-    4: -25 * (m[3] ?? 0),
+    // 3: -25 * (m[2] ?? 0),
+    // 4: -25 * (m[3] ?? 0),
   }
 
   return scale[index] ?? 0
 }
 
-const createReactPage = `import React from 'react';
-import Layout from '@theme/Layout';
+const createReactPage = `SELECT timestamp, tempC
+FROM sensors
+WHERE timestamp IN '2021-05-14;1M';`
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}`
-
-const craeteMDPage = `# My Markdown page
-This is a Markdown page
+const craeteMDPage = `SELECT timestamp, sensorName, tempC
+FROM sensors
+LATEST ON timestamp PARTITION BY sensorName;
 `
-
 
 type Index = 1 | 2 | 3 | 4
 
@@ -66,120 +58,87 @@ export const PageCreator = () => {
   // 622, 800
 
   useEffect(() => {
-    if (windowWidth != null && windowWidth < 100) {
-      setTop(S)
-      return
-    }
+    // if (windowWidth != null && windowWidth < 100) {
+    //   setTop(S)
+    //   return
+    // }
 
-    if (windowWidth != null && windowWidth < 200) {
-      setTop(M)
-      return
-    }
+    // if (windowWidth != null && windowWidth < 200) {
+    //   setTop(M)
+    //   return
+    // }
 
-    setTop(L)
+    setTop(M)
   }, [windowWidth])
 
   return (
-    <section
-      className={clsx(
-        seCss.section,
-        seCss["section--inner"],
-        seCss["section--center"],
-        seCss["section--showcase"],
-      )}
-    >
-      <h1
-        className={clsx(
-          seCss.section__title,
-          seCss["section__title--wide"],
-          "text--center",
-        )}
-      >
-        How to create pages
-      </h1>
 
-      <p
-        className={clsx(
-          seCss.section__subtitle,
-          seCss["section__subtitle--narrow"],
-          "text--center",
-        )}
-      >
-        Add Markdown or React files to src/pages to create a standalone page
-      </p>
-
-      <div className={shCss.showcase}>
-        <div className={shCss.showcase__inner}>
-          <div
-            className={clsx(shCss.showcase__chevron)}
-            onClick={handleUpClick}
-            style={{ visibility: index === 1 ? "hidden" : "visible" }}
-          >
-            <Chevron />
-          </div>
-          <div className={clsx(shCss.showcase__left)}>
-            <div
-              className={clsx(
-                shCss.showcase__offset,
-                shCss[`showcase__${index}`],
-              )}
-              style={{ top: getTopByIndex(top, index) }}
-            >
-              <Highlight code={createReactPage} />
-              <Highlight code={`-- Created your first React Page\n${createReactPage}`} />
-              <Highlight code={craeteMDPage} />
-              <Highlight code={`-- Created your first Markdown Page\n${craeteMDPage}`} />
-            </div>
-          </div>
-          <div
-            className={clsx(
-              shCss.showcase__chevron,
-              shCss["showcase__chevron--bottom"],
-            )}
-            onClick={handleDownClick}
-            style={{ visibility: index === 2 ? "hidden" : "visible" }}
-          >
-            <Chevron />
-          </div>
-          <div className={shCss.showcase__right}>
-            <div
-              className={clsx(shCss.showcase__button, {
-                [shCss["showcase__button--active"]]: index === 1,
-              })}
-              onClick={handleClick1}
-            >
-              <h3 className={shCss.showcase__header}>
-                <SvgImage
-                  image={<SearchTimeIcon className={shCss.showcase__icon} />}
-                  title="Magnifying glass icon"
-                />
-                Create React Page
-              </h3>
-              <p className={shCss.showcase__description}>
-                Create a file at src/pages/my-react-page.js:
-              </p>
-            </div>
-
-            <div
-              className={clsx(shCss.showcase__button, {
-                [shCss["showcase__button--active"]]: index === 2,
-              })}
-              onClick={handleClick2}
-            >
-              <h3 className={shCss.showcase__header}>
-                <SvgImage
-                  image={<SliceTimeIcon className={shCss.showcase__icon} />}
-                  title="Knife icon"
-                />
-                Create Markdown Page
-              </h3>
-              <p className={shCss.showcase__description}>
-                Create a file at src/pages/my-markdown-page.md:
-              </p>
-            </div>
-          </div>
+    <div className={shCss.showcase}>
+      {/* <div className={shCss.showcase__inner}> */}
+      {/* <div
+          className={clsx(shCss.showcase__chevron)}
+          onClick={handleUpClick}
+          style={{ visibility: index === 1 ? "hidden" : "visible" }}
+        >
+          <Chevron />
+        </div> */}
+      <div className={clsx(shCss.showcase__left)}>
+        <div
+          className={clsx(
+            shCss.showcase__offset,
+            shCss[`showcase__${index}`],
+          )}
+        // style={{ top: getTopByIndex(top, index) }}
+        >
+          <Highlight code={createReactPage} language="sql" />
+          <Highlight code={`-- Created your first React Page\n${createReactPage}`} language="sql" />
+          <Highlight code={craeteMDPage} language="sql" />
+          <Highlight code={`-- Created your first Markdown Page\n${craeteMDPage}`} language="sql" />
         </div>
       </div>
-    </section>
+      <div
+        className={clsx(
+          shCss.showcase__chevron,
+          shCss["showcase__chevron--bottom"],
+        )}
+        onClick={handleDownClick}
+        style={{ visibility: index === 2 ? "hidden" : "visible" }}
+      >
+        <Chevron />
+      </div>
+      <div className={shCss.showcase__right}>
+        <div
+          className={clsx(shCss.showcase__button, {
+            [shCss["showcase__button--active"]]: index === 1,
+          })}
+          onClick={handleClick1}
+        >
+          <h4 className={shCss.showcase__header}>
+            <SvgImage
+              image={<SearchTimeIcon className={shCss.showcase__icon} />}
+              title="Magnifying glass icon"
+            />
+            Create React Page
+          </h4>
+        </div>
+
+        <div
+          className={clsx(shCss.showcase__button, {
+            [shCss["showcase__button--active"]]: index === 2,
+          })}
+          onClick={handleClick2}
+        >
+          <h4 className={shCss.showcase__header}>
+            <SvgImage
+              image={<SliceTimeIcon className={shCss.showcase__icon} />}
+              title="Knife icon"
+            />
+            Create Markdown Page
+          </h4>
+        </div>
+      </div>
+    </div>
+    // </div>
+
   )
 }
