@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Welcome to Alchemy-Beertech!',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -54,6 +54,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+//        #ADD G-ANALYTICS HERE #
+//        gtag: {
+//         trackingID: "ID",
+//        anonymizeIP: true,
+//    },
       }),
     ],
   ],
@@ -76,7 +81,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -127,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BeerTech. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
