@@ -705,11 +705,6 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/faq",
-        "source": "@site/src/pages/faq.js"
-      },
-      {
-        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.tsx"
       },
@@ -727,6 +722,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-tailwindcss": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

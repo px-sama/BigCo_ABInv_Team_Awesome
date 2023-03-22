@@ -334,13 +334,15 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    null
+  ],
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

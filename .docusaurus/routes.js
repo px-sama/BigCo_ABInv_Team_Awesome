@@ -93,11 +93,6 @@ export default [
     exact: true
   },
   {
-    path: '/faq',
-    component: ComponentCreator('/faq', '9c2'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '35e'),
     exact: true

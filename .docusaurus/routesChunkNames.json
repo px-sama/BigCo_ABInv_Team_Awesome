@@ -179,17 +179,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
-  "/faq-9c2": {
-    "__comp": "__comp---site-src-pages-faq-jsdf-2-53f",
-    "__context": {
-      "plugin": "plugin---faqc-54-940"
-    },
-    "config": "config---faq-5-e-9-bb1"
-  },
   "/markdown-page-35e": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---faqc-54-940"
+      "plugin": "plugin---markdown-pagec-54-a96"
     },
     "content": "content---markdown-page-393-028"
   },
@@ -251,8 +244,8 @@
   "/-5ad": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---faqc-54-940"
+      "plugin": "plugin---markdown-pagec-54-a96"
     },
-    "config": "config---faq-5-e-9-bb1"
+    "config": "config---5-e-9-4f3"
   }
 }
