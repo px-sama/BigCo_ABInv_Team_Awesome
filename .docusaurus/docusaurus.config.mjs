@@ -4,14 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Welcome to Alchemy-Beertech!",
+  "tagline": "",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/sidebars.js",
+          "sidebarPath": "/Users/pxsama/dev/BigCo_ABInv_Team_Awesome/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/src/css/custom.css"
+          "customCss": "/Users/pxsama/dev/BigCo_ABInv_Team_Awesome/src/css/custom.css"
         }
       }
     ]
@@ -110,7 +110,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 BeerTech. Built with Docusaurus."
     },
     "prism": {
       "theme": {
