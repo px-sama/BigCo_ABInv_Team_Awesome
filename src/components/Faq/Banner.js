@@ -23,6 +23,8 @@ Banner.Header = function BannerHeader({ children, ...restProps }) {
     </header>
   );
 };
+
+
 Banner.Entity = function BannerEntity({ children, ...restProps }) {
   const [open, setOpen] = useState(false);
   return (
@@ -31,36 +33,36 @@ Banner.Entity = function BannerEntity({ children, ...restProps }) {
     </QuestionContext.Provider>
   );
 };
+
 Banner.Question = function BannerHeader({ children, ...restProps }) {
   const { open, setOpen } = React.useContext(QuestionContext);
 
   return (
-    <div onClick={() => setOpen((open) => !open)} {...restProps}>
-        {/* <div class="columns-6"><h2>{children}</h2></div> */}
-        {/* <div class={open? "mt-10 grid grid-cols-5" : "mt-10 mb-10 grid grid-cols-5"}> */}
-        <div class="mt-10 mb-10 grid grid-cols-5">
-            <div></div>
-            {/* <div class={open? "text-xl font-bold col-span-2 bg-slate-300 rounded" : "text-xl font-bold col-span-2"}>{children}</div> */}
-            <div class="text-xl font-bold col-span-2">{children}</div>
-            <div></div>
-            <div>{open ? <h3><FontAwesomeIcon icon={faMinus} size="2x"/></h3> : <h3><FontAwesomeIcon icon={faPlus} size="2x"/></h3>}</div>
-            <div></div>
+    <div
+      className="mb-2 rounded-lg border-gray-400 border-2 bg-gray-100 hover:bg-gray-200 transition duration-300 ease-in-out cursor-pointer"
+      onClick={() => setOpen((open) => !open)}
+      {...restProps}
+    >
+      <div className="py-4 px-4 flex items-center justify-between">
+        <h3 className="text-lg font-medium">{children}</h3>
+        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-300">
+          <FontAwesomeIcon icon={open ? faMinus : faPlus} size="sm" />
         </div>
-        {/* <div class="grid place-items-center"><h2>{children}</h2>{open ? <h3><FontAwesomeIcon icon={faMinus} size="2x"/></h3> : <h3><FontAwesomeIcon icon={faPlus} size="2x"/></h3>}</div> */}
-      
-      {/* {open ? <h3>^</h3> : <h3>+</h3>} */}
-      {/* {open ? <h3><FontAwesomeIcon icon={faMinus} size="2x"/></h3> : <h3><FontAwesomeIcon icon={faPlus} size="2x"/></h3>} */}
+      </div>
     </div>
   );
 };
+
 Banner.Text = function BannerText({ children, ...restProps }) {
   const { open } = React.useContext(QuestionContext);
-  return open ? 
-    <div {...restProps} class="grid grid-cols-5">
-        <div></div>
-        <div class="col-span-3 bg-slate-200 rounded">{children}</div>
-        <div></div>
+  return (
+    <div
+      className={`py-2 px-4 transition duration-300 ease-in-out ${
+        open ? "block" : "hidden"
+      }`}
+      {...restProps}
+    >
+      <div className="bg-gray-200 rounded-lg p-4">{children}</div>
     </div>
-    // <div {...restProps} class="grid place-items-center bg-slate-300">{children}</div>
-    : null;
+  );
 };

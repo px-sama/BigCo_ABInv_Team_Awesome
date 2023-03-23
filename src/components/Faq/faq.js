@@ -6,7 +6,7 @@ export default function Faq() {
   return (
     <Banner>
     <Banner.Header>Any questions?<br></br>We got you.</Banner.Header>
-    <section class="section"></section>
+    <section className="my-2"></section>
     {questions.map((question) => (
         <Banner.Entity key={question.id}>
         <Banner.Question>{question.question}</Banner.Question>
