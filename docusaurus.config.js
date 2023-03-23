@@ -21,7 +21,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -53,12 +53,14 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          // customCss: require.resolve('./src/css/_global.css'),
+
         },
-//        #ADD G-ANALYTICS HERE #
-//        gtag: {
-//         trackingID: "ID",
-//        anonymizeIP: true,
-//    },
+        //        #ADD G-ANALYTICS HERE #
+        //        gtag: {
+        //         trackingID: "ID",
+        //        anonymizeIP: true,
+        //    },
       }),
     ],
   ],
