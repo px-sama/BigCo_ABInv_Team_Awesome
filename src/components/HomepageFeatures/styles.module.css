@@ -16,3 +16,27 @@
   height: 200px;
   width: 200px;
 }
+
+.bulletin_item {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.bulletin_date {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.bulletin_text a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.bulletin_text a:hover {
+  text-decoration: underline;
+}

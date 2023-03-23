@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to Alchemy-Beertech!',
-  tagline: '',
+  title: 'Alchemy-Beertech Documentation',
+  tagline: 'Help and information for the Data Migration',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

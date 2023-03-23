@@ -86,7 +86,7 @@ function Feature({ Svg, title, description }) {
 export default function HomepageFeatures() {
   return (
     <main>
-      <h1 className="container">
+      {/* <h1 className="container">
         <center>Bulletin</center>
       </h1>
 
@@ -105,7 +105,37 @@ export default function HomepageFeatures() {
             </center>
           </div>
         </div>
+      </section> */}
+      <h1 className="container mt-5">
+        <center>Bulletin</center>
+      </h1>
+
+      <section className={styles.bulletin_features}>
+        <div className="container">
+          <div className="row">
+            <center>
+              <div className={styles.bulletin_item}>
+                <div className={styles.bulletin_date}>3/17</div>
+                <div className={styles.bulletin_text}>Happy St. Patrick's Day!</div>
+              </div>
+            </center>
+          </div>
+          <div className="row">
+            <center>
+              <div className={styles.bulletin_item}>
+                <div className={styles.bulletin_date}>3/15</div>
+                <div className={styles.bulletin_text}>
+                  New set of tables in Teradata has been decommissioned. Please refer to{' '}
+                  <a href="https://docs.alchemy.beertech.com/teradata-updates/">
+                    3/15 Teradata Update
+                  </a>
+                </div>
+              </div>
+            </center>
+          </div>
+        </div>
       </section>
+
 
       <h1 className="container">
         <center>Datasets by Function</center>
