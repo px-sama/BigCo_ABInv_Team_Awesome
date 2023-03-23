@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Welcome to Alchemy-Beertech!",
-  "tagline": "",
+  "title": "Alchemy-Beertech Documentation",
+  "tagline": "Help and information for the Data Migration",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
