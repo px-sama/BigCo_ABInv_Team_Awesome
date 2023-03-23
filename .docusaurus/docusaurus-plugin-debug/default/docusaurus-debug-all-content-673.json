@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/pxsama/dev/BigCo_ABInv_Team_Awesome/sidebars.js",
-          "contentPath": "/Users/pxsama/dev/BigCo_ABInv_Team_Awesome/docs",
-          "contentPathLocalized": "/Users/pxsama/dev/BigCo_ABInv_Team_Awesome/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/sidebars.js",
+          "contentPath": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/docs",
+          "contentPathLocalized": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
