@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@docusaurus/theme-classic/lib/theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
+import Countdown from '@site/src/components/Countdown';
+
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -20,6 +22,10 @@ function HomepageHeader() {
             alt="Hero Image"
           />
         </div>
+
+        <p className="hero__subtitle">Time left for TeraData Decomission </p>
+        <Countdown target='15 Sep 2023 00:00:00' />
+
         {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
