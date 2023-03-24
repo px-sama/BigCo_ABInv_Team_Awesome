@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+// import Countdown from '@site/src/components/Countdown';
 
 const FeatureList_functions = [
   {
@@ -106,6 +107,10 @@ export default function HomepageFeatures() {
           </div>
         </div>
       </section> */}
+      {/* <div className="container">
+        <Countdown target='15 Sep 2023 00:00:00' />
+      </div> */}
+
       <h1 className="container mt-5">
         <center>Bulletin</center>
       </h1>
