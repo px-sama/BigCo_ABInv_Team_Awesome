@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/PowerBI",
+              "path": "/docs/tutorial-basics/PowerBI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-extras/manage-docs-versions",
               "path": "/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"

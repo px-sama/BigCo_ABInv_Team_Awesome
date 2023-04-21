@@ -29,6 +29,12 @@
           },
           {
             "type": "link",
+            "label": "PowerBI",
+            "href": "/docs/tutorial-basics/PowerBI",
+            "docId": "tutorial-basics/PowerBI"
+          },
+          {
+            "type": "link",
             "label": "create-a-page",
             "href": "/docs/tutorial-basics/create-a-page",
             "docId": "tutorial-basics/create-a-page"
@@ -136,6 +142,12 @@
       "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
       "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/PowerBI": {
+      "id": "tutorial-basics/PowerBI",
+      "title": "PowerBI",
+      "description": "Data migration can be frustrating for downstream users, especially for those who use PowerBI. Below are a few common issues/questions and there respective solutions/answers.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/manage-docs-versions": {
