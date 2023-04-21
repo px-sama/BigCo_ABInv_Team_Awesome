@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0c7'),
+    component: ComponentCreator('/docs', 'b1b'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -158,6 +158,12 @@ export default [
       {
         path: '/docs/tutorial-basics/markdown-features',
         component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/PowerBI',
+        component: ComponentCreator('/docs/tutorial-basics/PowerBI', '594'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

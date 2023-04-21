@@ -65,8 +65,8 @@
                 "permalink": "/docs/category/tutorial---basics"
               },
               "next": {
-                "title": "create-a-page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "PowerBI",
+                "permalink": "/docs/tutorial-basics/PowerBI"
               }
             },
             {
@@ -169,8 +169,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Calendar",
-                "permalink": "/docs/tutorial-basics/Calendar"
+                "title": "PowerBI",
+                "permalink": "/docs/tutorial-basics/PowerBI"
               },
               "next": {
                 "title": "Create a Document",
@@ -229,6 +229,33 @@
               "next": {
                 "title": "Deploy your site",
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/PowerBI",
+              "id": "tutorial-basics/PowerBI",
+              "title": "PowerBI",
+              "description": "Data migration can be frustrating for downstream users, especially for those who use PowerBI. Below are a few common issues/questions and there respective solutions/answers.",
+              "source": "@site/docs/tutorial-basics/PowerBI.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/PowerBI",
+              "permalink": "/docs/tutorial-basics/PowerBI",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/PowerBI.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Calendar",
+                "permalink": "/docs/tutorial-basics/Calendar"
+              },
+              "next": {
+                "title": "create-a-page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
               }
             },
             {
@@ -298,6 +325,10 @@
                   {
                     "type": "doc",
                     "id": "tutorial-basics/Calendar"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/PowerBI"
                   },
                   {
                     "type": "doc",
