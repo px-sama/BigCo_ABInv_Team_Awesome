@@ -13,6 +13,8 @@ const FeatureList_functions = [
         be extended while reusing the same header and footer.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
   {
     title: 'Finance',
@@ -24,6 +26,8 @@ const FeatureList_functions = [
         be extended while reusing the same header and footer.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
   {
     title: 'Miscellaneous',
@@ -34,6 +38,8 @@ const FeatureList_functions = [
         be extended while reusing the same header and footer.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
 ];
 
@@ -47,6 +53,8 @@ const FeatureList_locations = [
         used to get your website up and running quickly.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
   {
     title: 'Canada',
@@ -57,6 +65,8 @@ const FeatureList_locations = [
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
   {
     title: 'Global',
@@ -67,14 +77,55 @@ const FeatureList_locations = [
         be extended while reusing the same header and footer.
       </>
     ),
+    link: 'https://www.google.com',
+    SvgClassName: styles.featureSvg,
   },
 ];
 
-function Feature({ Svg, title, description }) {
+const FeatureList_usages = [
+  {
+    title: 'US Data - VIP Sales',
+    Svg: require('@site/static/img/gold-medal-svgrepo-com.svg').default,
+    description: (
+      <>
+        Total user visits: 26
+      </>
+    ),
+    link: 'docs/tutorial-basics/Calendar',
+    SvgClassName: styles.featureUsageSvg,
+  },
+  {
+    title: 'US Data - Calendar',
+    Svg: require('@site/static/img/second-svgrepo-com.svg')
+      .default,
+    description: (
+      <>
+        Total user visits: 21
+      </>
+    ),
+    link: 'docs/tutorial-basics/Calendar',
+    SvgClassName: styles.featureUsageSvg,
+  },
+  {
+    title: 'US Data - Wholesaler',
+    Svg: require('@site/static/img/third-svgrepo-com.svg').default,
+    description: (
+      <>
+        Total user visits: 20
+      </>
+    ),
+    link: 'docs/tutorial-basics/Calendar',
+    SvgClassName: styles.featureUsageSvg,
+  },
+];
+
+function Feature({ Svg, title, description, link, SvgClassName }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link}>
+          <Svg className={SvgClassName} role="img" />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -141,6 +192,19 @@ export default function HomepageFeatures() {
         </div>
       </section>
 
+      <h1 className="container">
+        <center>Datasets by Usage</center>
+      </h1>
+
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList_usages.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       <h1 className="container">
         <center>Datasets by Function</center>

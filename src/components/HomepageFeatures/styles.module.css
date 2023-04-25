@@ -17,6 +17,12 @@
   width: 200px;
 }
 
+.featureUsageSvg{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 40px;
+}
+
 .bulletin_item {
   display: flex;
   align-items: center;
