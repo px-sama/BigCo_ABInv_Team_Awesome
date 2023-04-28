@@ -1,0 +1,46 @@
+[
+  {
+    "oldFieldName": "a",
+    "newFieldName": "A"
+  },
+  {
+    "oldFieldName": "b",
+    "newFieldName": "B"
+  },
+  {
+    "oldFieldName": "c",
+    "newFieldName": "C"
+  },
+  {
+    "oldFieldName": "d",
+    "newFieldName": "D"
+  },
+  {
+    "oldFieldName": "e",
+    "newFieldName": "E"
+  },
+  {
+    "oldFieldName": "f",
+    "newFieldName": "F"
+  },
+  {
+    "oldFieldName": "g",
+    "newFieldName": "G"
+  },
+  {
+    "oldFieldName": "h",
+    "newFieldName": "H"
+  },
+  {
+    "oldFieldName": "j",
+    "newFieldName": "J"
+  },
+  {
+    "oldFieldName": "k",
+    "newFieldName": "K"
+  },
+  {
+    "oldFieldName": "l",
+    "newFieldName": "L"
+  }
+]
