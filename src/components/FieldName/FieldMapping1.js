@@ -1,6 +1,7 @@
-import React from "react"
+import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightLong, faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+import mappings from './jsons/RosettaStone.json'
 
 function FieldMapping({ oldFieldName, newFieldName, newFieldLink }) {
     return (
@@ -18,17 +19,17 @@ function FieldMapping({ oldFieldName, newFieldName, newFieldLink }) {
 
 
 export default function FieldMappings1() {
-    const mappings = [
-        { oldFieldName: 'CAL_NJ_T.CAL_DIM', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DIM', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_DT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DT', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_DT_ALIMT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DT_ALIMT', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_MO', newFieldName: 'DIMENSIONS.CALENDAR.CAL_MO', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_MO_EXT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_MO_EXT', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_QTR', newFieldName: 'DIMENSIONS.CALENDAR.CAL_QTR', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_TRI', newFieldName: 'DIMENSIONS.CALENDAR.CAL_TRI', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_WK', newFieldName: 'DIMENSIONS.CALENDAR.CAL_WK', newFieldLink: 'https://www.google.com/' },
-        { oldFieldName: 'CALENDARS_T.CAL_YR', newFieldName: 'DIMENSIONS.CALENDAR.CAL_YR', newFieldLink: 'https://www.google.com/' }
-      ];
+    // const mappings = [
+    //     { oldFieldName: 'CAL_NJ_T.CAL_DIM', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DIM', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_DT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DT', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_DT_ALIMT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_DT_ALIMT', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_MO', newFieldName: 'DIMENSIONS.CALENDAR.CAL_MO', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_MO_EXT', newFieldName: 'DIMENSIONS.CALENDAR.CAL_MO_EXT', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_QTR', newFieldName: 'DIMENSIONS.CALENDAR.CAL_QTR', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_TRI', newFieldName: 'DIMENSIONS.CALENDAR.CAL_TRI', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_WK', newFieldName: 'DIMENSIONS.CALENDAR.CAL_WK', newFieldLink: 'https://www.google.com/' },
+    //     { oldFieldName: 'CALENDARS_T.CAL_YR', newFieldName: 'DIMENSIONS.CALENDAR.CAL_YR', newFieldLink: 'https://www.google.com/' }
+    //   ];
     return (
         <div className="mb-10">
             <header className="bg-gradient-to-r from-purple-500 to-indigo-500">
@@ -43,6 +44,7 @@ export default function FieldMappings1() {
                 <div className="space-y-10">
                     {mappings.map((mapping, index) => (
                         <FieldMapping
+                            key={index}
                             oldFieldName={mapping.oldFieldName}
                             newFieldName={mapping.newFieldName}
                             newFieldLink={mapping.newFieldLink}
