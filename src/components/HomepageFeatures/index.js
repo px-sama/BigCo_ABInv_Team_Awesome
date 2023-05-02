@@ -137,7 +137,9 @@ function Feature({ Svg, title, description, link, SvgClassName }) {
 }
 
 export default function HomepageFeatures() {
-  AOS.init();
+  if (typeof window !== "undefined") {
+    AOS.init();
+  }
   return (
     <main>
       <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
