@@ -11,7 +11,7 @@ import Countdown from '@site/src/components/Countdown';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner, styles.customHeader)}>
+    <header className={clsx('hero hero--primary max-w-screen-full', styles.heroBanner, styles.customHeader)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>

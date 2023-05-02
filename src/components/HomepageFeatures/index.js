@@ -1,7 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-// import Countdown from '@site/src/components/Countdown';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const FeatureList_functions = [
   {
@@ -127,8 +128,8 @@ function Feature({ Svg, title, description, link, SvgClassName }) {
           <Svg className={SvgClassName} role="img" />
         </a>
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+      <div className="text--center padding-horiz--md text-[20px]">
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
@@ -136,33 +137,10 @@ function Feature({ Svg, title, description, link, SvgClassName }) {
 }
 
 export default function HomepageFeatures() {
+  Aos.init();
   return (
     <main>
-      {/* <h1 className="container">
-        <center>Bulletin</center>
-      </h1>
-
-      <section className={styles.bulletin_features}>
-        <div className="container">
-          <div className="row">
-            <center>3/17: Happy St. Patrick's Day!</center>
-          </div>
-          <div className="row">
-            <center>
-              3/15: New set of tables in Teradata has been decommissioned.
-              Please refer to{' '}
-              <a href="https://docs.alchemy.beertech.com/teradata-updates/">
-                3/15 Teradata Update
-              </a>
-            </center>
-          </div>
-        </div>
-      </section> */}
-      {/* <div className="container">
-        <Countdown target='15 Sep 2023 00:00:00' />
-      </div> */}
-
-      <h1 className="container mt-5">
+      <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
         <center>Bulletin</center>
       </h1>
 
@@ -170,7 +148,7 @@ export default function HomepageFeatures() {
         <div className="container">
           <div className="row">
             <center>
-              <div className={styles.bulletin_item}>
+              <div className={styles.bulletin_item} data-aos="fade-right" data-aos-duration="2000">
                 <div className={styles.bulletin_date}>3/17</div>
                 <div className={styles.bulletin_text}>Happy St. Patrick's Day!</div>
               </div>
@@ -178,7 +156,7 @@ export default function HomepageFeatures() {
           </div>
           <div className="row">
             <center>
-              <div className={styles.bulletin_item}>
+              <div className={styles.bulletin_item} data-aos="fade-right" data-aos-duration="2000">
                 <div className={styles.bulletin_date}>3/15</div>
                 <div className={styles.bulletin_text}>
                   New set of tables in Teradata has been decommissioned. Please refer to{' '}
@@ -192,13 +170,13 @@ export default function HomepageFeatures() {
         </div>
       </section>
 
-      <h1 className="container">
+      <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
         <center>Datasets by Usage</center>
       </h1>
 
       <section className={styles.features}>
-        <div className="container">
-          <div className="row">
+        <div data-aos="fade-down" data-aos-duration="2000" className="container">
+          <div className="row py-20">
             {FeatureList_usages.map((props, idx) => (
               <Feature key={idx} {...props} />
             ))}
@@ -206,12 +184,12 @@ export default function HomepageFeatures() {
         </div>
       </section>
 
-      <h1 className="container">
+      <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
         <center>Datasets by Function</center>
       </h1>
 
       <section className={styles.features}>
-        <div className="container">
+        <div data-aos="fade-down" data-aos-duration="2000" className="container">
           <div className="row">
             {FeatureList_functions.map((props, idx) => (
               <Feature key={idx} {...props} />
@@ -220,12 +198,12 @@ export default function HomepageFeatures() {
         </div>
       </section>
 
-      <h1 className="container">
+      <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
         <center>Datasets by Location</center>
       </h1>
 
       <section className={styles.features}>
-        <div className="container">
+        <div data-aos="fade-down" data-aos-duration="2000" className="container">
           <div className="row">
             {FeatureList_locations.map((props, idx) => (
               <Feature key={idx} {...props} />
@@ -233,6 +211,6 @@ export default function HomepageFeatures() {
           </div>
         </div>
       </section>
-    </main>
+    </main >
   );
 }
