@@ -45,7 +45,7 @@ export default function Countdown({ target }: Props) {
     })
 
     return (
-        <section className="time-container">
+        <section className="time-container hero__subtitle">
             <section className="timer">
                 <div>
                     <section>

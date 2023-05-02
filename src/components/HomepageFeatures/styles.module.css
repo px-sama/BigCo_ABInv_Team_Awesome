@@ -1,15 +1,13 @@
-.features {
+f.features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 10rem 0;
   width: 100%;
 }
 
 .bulletin_features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
 }
 
 .featureSvg {
@@ -31,6 +29,7 @@
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
+  font-size: 30px
 }
 
 .bulletin_date {

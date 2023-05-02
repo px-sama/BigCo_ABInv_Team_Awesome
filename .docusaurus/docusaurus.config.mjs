@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/sidebars.js",
+          "sidebarPath": "/Users/pxsama/dev/bigco_repo_temp/BigCo_ABInv_Team_Awesome/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/somnus/Desktop/课件/Spring Studio/BigCo_ABInv_Team_Awesome/src/css/custom.css"
+          "customCss": "/Users/pxsama/dev/bigco_repo_temp/BigCo_ABInv_Team_Awesome/src/css/custom.css"
         }
       }
     ]
