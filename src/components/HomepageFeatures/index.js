@@ -1,8 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import Aos from 'aos';
-import "aos/dist/aos.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const FeatureList_functions = [
   {
@@ -137,7 +137,7 @@ function Feature({ Svg, title, description, link, SvgClassName }) {
 }
 
 export default function HomepageFeatures() {
-  Aos.init();
+  AOS.init();
   return (
     <main>
       <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
