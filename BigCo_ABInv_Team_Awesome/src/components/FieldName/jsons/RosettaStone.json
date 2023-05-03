@@ -1,0 +1,186 @@
+[
+  {
+    "oldFieldName": "CAL_NJ_T.CAL_DIM",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DIM"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_DT",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_DT_ALIMT",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT_ALIMT"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_MO",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_MO_EXT",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO_EXT"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_QTR",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_QTR"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_TRI",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_TRI"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_WK",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.CAL_YR",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.ISO_WK",
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.ISO_WK_ALIMT",
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_ALIMT"
+  },
+  {
+    "oldFieldName": "CALENDARS_T.ISO_WK_MO",
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_MO"
+  },
+  {
+    "oldFieldName": "PATSI_NJ_T.PREV_YR_CAL_MO",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR"
+  },
+  {
+    "oldFieldName": "PATSI_T.BRND",
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+  },
+  {
+    "oldFieldName": "PATSI_T.BRND_GRP",
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+  },
+  {
+    "oldFieldName": "PATSI_T.BRND_GRP_AFFILTN",
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+  },
+  {
+    "oldFieldName": "PATSI_T.BRND_MASTER",
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+  },
+  {
+    "oldFieldName": "PATSI_T.DY",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT"
+  },
+  {
+    "oldFieldName": "PATSI_T.MKT_LN",
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN"
+  },
+  {
+    "oldFieldName": "PATSI_T.MNTH",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO"
+  },
+  {
+    "oldFieldName": "PATSI_T.STR_BDGT_ALL_BRNDS",
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+  },
+  {
+    "oldFieldName": "PATSI_T.WK",
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK"
+  },
+  {
+    "oldFieldName": "PATSI_T.WSLR",
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR"
+  },
+  {
+    "oldFieldName": "PROD_NJ_T.PDCN",
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN"
+  },
+  {
+    "oldFieldName": "PROD_NJ_T.PDCN_DM",
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN_DM"
+  },
+  {
+    "oldFieldName": "PURCG_T.WBS",
+    "newFieldName": "DIMENSIONS.FINANCIALS.WBS"
+  },
+  {
+    "oldFieldName": "RETAILERS_T.RTL_ACCT_CLASS",
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_CLASS"
+  },
+  {
+    "oldFieldName": "RETAILERS_T.RTL_ACCT_GRP",
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP"
+  },
+  {
+    "oldFieldName": "RETAILERS_T.RTL_ACCT_GRP_TYP",
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP_TYP"
+  },
+  {
+    "oldFieldName": "RTLR_T.RTL_GRP",
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_GROUP"
+  },
+  {
+    "oldFieldName": "RTLR_T.RTL_SEG",
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SEGMENT"
+  },
+  {
+    "oldFieldName": "RTLR_T.RTL_SUBSEG",
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SUB_SEGMENT"
+  },
+  {
+    "oldFieldName": "RTLR_T.TERR_GRP",
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP"
+  },
+  {
+    "oldFieldName": "RTLR_T.TERR_GRP_BRND",
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_BRND"
+  },
+  {
+    "oldFieldName": "RTLR_T.TERR_GRP_PDCN",
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_PDCN"
+  },
+  {
+    "oldFieldName": "RTLR_T.TERR_WSLR_CUST",
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_WSLR_CUST"
+  },
+  {
+    "oldFieldName": "RTLR_T.WSLR_CUST_LATTD_LNGTD_OVRD",
+    "newFieldName": "DIMENSIONS.RETAILER.WSLR_CUST_LATTD_LNGTD_OVRD"
+  },
+  {
+    "oldFieldName": "VIP_DATA_T.VIP_CAL",
+    "newFieldName": "DIMENSIONS.VIP.VIP_CAL"
+  },
+  {
+    "oldFieldName": "VIP_DATA_T.VIP_OUTLT",
+    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT"
+  },
+  {
+    "oldFieldName": "VIP_DATA_T.VIP_OUTLT_XREF",
+    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT_XREF"
+  },
+  {
+    "oldFieldName": "VIP_DATA_T.VIP_WSLR_OUTLT",
+    "newFieldName": "DIMENSIONS.VIP.VIP_WSLR_OUTLT"
+  },
+  {
+    "oldFieldName": "WSLR_NJ_T.WSLR_ADDR",
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_ADDR"
+  },
+  {
+    "oldFieldName": "WSLR_NJ_T.WSLR_CNTCT",
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CNTCT"
+  },
+  {
+    "oldFieldName": "WSLR_T.WSLR_CRCTD_ADDR",
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CRCTD_ADDR"
+  },
+  {
+    "oldFieldName": "WSLR_T.WSLR_SLS_CAL",
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_SLS_CAL"
+  },
+  {
+    "oldFieldName": "WSLR_T.WSLR_TERR",
+    "newFieldName": "DIMENSIONS.RETAILER.WSLR_TERR"
+  }
+]
