@@ -27,21 +27,21 @@ const getTopByIndex = (m: number[], index: 1 | 2 | 3 | 4): number => {
     return scale[index] ?? 0
 }
 
-const searchQuery = `SELECT timestamp, tempC
-FROM sensors
-WHERE timestamp IN '2021-05-14;1M';`
+const searchQuery = `SELECT CAL_DT
+FROM EDW.CAL_DT
+WHERE LAST_DY_OF_MO_FLG = 1;`
 
-const sliceQuery = `SELECT timestamp, avg(tempC)
-FROM sensors
-SAMPLE BY 5m;`
+const sliceQuery = `SELECT PRIOR_YR_CAL_YR_TRI_NBR
+FROM EDW.CAL_DT
+WHERE CAL_DT IN '2021-05-14;1M';`
 
-const navigateQuery = `SELECT timestamp, sensorName, tempC
-FROM sensors
-LATEST ON timestamp PARTITION BY sensorName;`
+const navigateQuery = `SELECT CAL_DT
+FROM EDW.CAL_DT
+WHERE CAL_YR_NBR BETWEEN 2020 AND 2022;`
 
-const mergeQuery = `SELECT sensors.timestamp ts, rain1H
-FROM sensors
-ASOF JOIN weather;`
+const mergeQuery = `SELECT CAL_YR_QTR_NBR
+FROM EDW.CAL_DT AS DATES
+RIGHT JOIN SALES ON DATES.CAL_DT = SALES.DT;`
 
 type Index = 1 | 2 | 3 | 4
 
@@ -141,7 +141,7 @@ export const PageCreator = () => {
                                     image={<SearchTimeIcon className={shCss.showcase__icon} />}
                                     title="Magnifying glass icon"
                                 />
-                                Search Time
+                                Check for last day of the month
                             </h3>
                         </div>
 
@@ -157,7 +157,7 @@ export const PageCreator = () => {
                                     image={<SliceTimeIcon className={shCss.showcase__icon} />}
                                     title="Knife icon"
                                 />
-                                Slice Time
+                                Find prior year's dates
                             </h3>
                         </div>
 
@@ -172,7 +172,7 @@ export const PageCreator = () => {
                                     image={<NavigateTimeIcon className={shCss.showcase__icon} />}
                                     title="Indication arrow icon"
                                 />
-                                Navigate Time
+                                Look at dates between years
                             </h3>
                         </div>
                         <div
@@ -186,7 +186,7 @@ export const PageCreator = () => {
                                     image={<MergeTimeIcon className={shCss.showcase__icon} />}
                                     title="Two overlapping squares"
                                 />
-                                Merge Time
+                                Merge tables on date
                             </h3>
                         </div>
                     </div>

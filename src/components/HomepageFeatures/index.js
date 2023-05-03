@@ -4,14 +4,17 @@ import styles from './styles.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
+
+// SVG images of non-maps: https://undraw.co/ using color code #CCA43C
+// SBG images of maps: https://www.fla-shop.com/svg/ using color code #CCA43C
+
 const FeatureList_functions = [
   {
     title: 'Supply Chain',
-    Svg: require('@site/static/img/undraw_order_delivered_re_v4ab.svg').default,
+    Svg: require('@site/static/img/undraw_logistics_x-4-dc.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Transportation Volume, Warehouse Locations, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -23,8 +26,7 @@ const FeatureList_functions = [
       .default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Sales by Product, Sales by Region, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -35,8 +37,7 @@ const FeatureList_functions = [
     Svg: require('@site/static/img/undraw_notes_re_pxhw.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Calendar, Legal Codes by Region, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -50,8 +51,7 @@ const FeatureList_locations = [
     Svg: require('@site/static/img/us.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        By State, By City, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -62,8 +62,7 @@ const FeatureList_locations = [
     Svg: require('@site/static/img/canada.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        By Province, By Region, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -74,8 +73,7 @@ const FeatureList_locations = [
     Svg: require('@site/static/img/undraw_connected_world_wuay.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        By Continent, By Country, etc.
       </>
     ),
     link: 'https://www.google.com',
@@ -85,34 +83,34 @@ const FeatureList_locations = [
 
 const FeatureList_usages = [
   {
-    title: 'US Data - VIP Sales',
-    Svg: require('@site/static/img/gold-medal-svgrepo-com.svg').default,
+    title: 'Most Clicked on Tables this Week: Calendar',
+    Svg: require('@site/static/img/calendar.svg').default,
     description: (
       <>
-        Total user visits: 26
+        Tables by click popularity.
       </>
     ),
     link: 'docs/tutorial-basics/Calendar',
     SvgClassName: styles.featureUsageSvg,
   },
   {
-    title: 'US Data - Calendar',
-    Svg: require('@site/static/img/second-svgrepo-com.svg')
+    title: 'Featured Table this Week: Vip Sales',
+    Svg: require('@site/static/img/vip-sales.svg')
       .default,
     description: (
       <>
-        Total user visits: 21
+        Tables featured by BeerTech team.
       </>
     ),
     link: 'docs/tutorial-basics/Calendar',
     SvgClassName: styles.featureUsageSvg,
   },
   {
-    title: 'US Data - Wholesaler',
-    Svg: require('@site/static/img/third-svgrepo-com.svg').default,
+    title: 'Newest Table: Wholesaler',
+    Svg: require('@site/static/img/wholesaler.svg').default,
     description: (
       <>
-        Total user visits: 20
+        Most recently added / updated table.
       </>
     ),
     link: 'docs/tutorial-basics/Calendar',
