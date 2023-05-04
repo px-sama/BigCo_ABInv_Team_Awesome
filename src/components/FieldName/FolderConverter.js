@@ -30,6 +30,7 @@ inputFiles.forEach(inputFile => {
   const mappings = rows.map(row => ({
     oldFieldName: row['Legacy Table'],
     newFieldName: row['Modernized Table'],
+    newFieldLink: row['Link'],
   }));
 
   // Get the file name and extension of the input XLSX file

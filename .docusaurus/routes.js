@@ -4,102 +4,102 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'dd4'),
+    component: ComponentCreator('/__docusaurus/debug', '24a'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'c6f'),
+    component: ComponentCreator('/__docusaurus/debug/config', '085'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '06a'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'd9a'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '7c3'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'e82'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '5e9'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'a16'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '6ee'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '039'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'ba1'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '61b'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '749'),
+    component: ComponentCreator('/blog', '99c'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '7f5'),
+    component: ComponentCreator('/blog/archive', 'c5b'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '4a5'),
+    component: ComponentCreator('/blog/first-blog-post', '0e7'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '409'),
+    component: ComponentCreator('/blog/long-blog-post', 'f6c'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'daa'),
+    component: ComponentCreator('/blog/mdx-blog-post', '812'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'fe5'),
+    component: ComponentCreator('/blog/tags', '9e3'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'e74'),
+    component: ComponentCreator('/blog/tags/docusaurus', '2c0'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '982'),
+    component: ComponentCreator('/blog/tags/facebook', 'ef2'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '997'),
+    component: ComponentCreator('/blog/tags/hello', '08c'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '32e'),
+    component: ComponentCreator('/blog/tags/hola', 'b14'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'f1d'),
+    component: ComponentCreator('/blog/welcome', 'd76'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'ff7'),
+    component: ComponentCreator('/markdown-page', '35e'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd17'),
+    component: ComponentCreator('/docs', 'c65'),
     routes: [
       {
         path: '/docs/category/tutorial---basics',
@@ -129,7 +129,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '43e'),
+    component: ComponentCreator('/', '5ad'),
     exact: true
   },
   {

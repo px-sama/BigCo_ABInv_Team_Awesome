@@ -171,7 +171,7 @@ export default function HomepageFeatures() {
       </section>
 
       <h1 className="container text-[50px] py-40" data-aos="fade-up" data-aos-duration="3000">
-        <center>Datasets by Usage</center>
+        <center>Popular Datasets</center>
       </h1>
 
       <section className={styles.features}>
