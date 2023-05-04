@@ -17,6 +17,7 @@ const rows = XLSX.utils.sheet_to_json(worksheet);
 const mappings = rows.map(row => ({
   oldFieldName: row['Legacy Table'],
   newFieldName: row['Modernized Table'],
+  newFieldLink: row['Link'],
 }));
 
 // Get the file name and extension of the input XLSX file

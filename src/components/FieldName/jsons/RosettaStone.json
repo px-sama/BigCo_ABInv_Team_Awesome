@@ -1,186 +1,232 @@
 [
   {
     "oldFieldName": "CAL_NJ_T.CAL_DIM",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DIM"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DIM",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_DT",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_DT_ALIMT",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT_ALIMT"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT_ALIMT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_MO",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_MO_EXT",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO_EXT"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO_EXT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_QTR",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_QTR"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_QTR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_TRI",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_TRI"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_TRI",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_WK",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.CAL_YR",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.ISO_WK",
-    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK"
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.ISO_WK_ALIMT",
-    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_ALIMT"
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_ALIMT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "CALENDARS_T.ISO_WK_MO",
-    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_MO"
+    "newFieldName": "DIMENSIONS.CALENDAR.ISO_WK_MO",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_NJ_T.PREV_YR_CAL_MO",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_YR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.BRND",
-    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.BRND_GRP",
-    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.BRND_GRP_AFFILTN",
-    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.BRND_MASTER",
-    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.DY",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_DT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.MKT_LN",
-    "newFieldName": "DIMENSIONS.PRODUCT.PDCN"
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.MNTH",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_MO",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.STR_BDGT_ALL_BRNDS",
-    "newFieldName": "DIMENSIONS.PRODUCT.BRND"
+    "newFieldName": "DIMENSIONS.PRODUCT.BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.WK",
-    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK"
+    "newFieldName": "DIMENSIONS.CALENDAR.CAL_WK",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PATSI_T.WSLR",
-    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR"
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PROD_NJ_T.PDCN",
-    "newFieldName": "DIMENSIONS.PRODUCT.PDCN"
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PROD_NJ_T.PDCN_DM",
-    "newFieldName": "DIMENSIONS.PRODUCT.PDCN_DM"
+    "newFieldName": "DIMENSIONS.PRODUCT.PDCN_DM",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "PURCG_T.WBS",
-    "newFieldName": "DIMENSIONS.FINANCIALS.WBS"
+    "newFieldName": "DIMENSIONS.FINANCIALS.WBS",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RETAILERS_T.RTL_ACCT_CLASS",
-    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_CLASS"
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_CLASS",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RETAILERS_T.RTL_ACCT_GRP",
-    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP"
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RETAILERS_T.RTL_ACCT_GRP_TYP",
-    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP_TYP"
+    "newFieldName": "DIMENSIONS.RETAILER.RTL_ACCT_GRP_TYP",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.RTL_GRP",
-    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_GROUP"
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_GROUP",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.RTL_SEG",
-    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SEGMENT"
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SEGMENT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.RTL_SUBSEG",
-    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SUB_SEGMENT"
+    "newFieldName": "DIMENSIONS.RETAILER.RETAIL_SUB_SEGMENT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.TERR_GRP",
-    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP"
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.TERR_GRP_BRND",
-    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_BRND"
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_BRND",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.TERR_GRP_PDCN",
-    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_PDCN"
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_GRP_PDCN",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.TERR_WSLR_CUST",
-    "newFieldName": "DIMENSIONS.RETAILER.TERR_WSLR_CUST"
+    "newFieldName": "DIMENSIONS.RETAILER.TERR_WSLR_CUST",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "RTLR_T.WSLR_CUST_LATTD_LNGTD_OVRD",
-    "newFieldName": "DIMENSIONS.RETAILER.WSLR_CUST_LATTD_LNGTD_OVRD"
+    "newFieldName": "DIMENSIONS.RETAILER.WSLR_CUST_LATTD_LNGTD_OVRD",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "VIP_DATA_T.VIP_CAL",
-    "newFieldName": "DIMENSIONS.VIP.VIP_CAL"
+    "newFieldName": "DIMENSIONS.VIP.VIP_CAL",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "VIP_DATA_T.VIP_OUTLT",
-    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT"
+    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "VIP_DATA_T.VIP_OUTLT_XREF",
-    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT_XREF"
+    "newFieldName": "DIMENSIONS.VIP.VIP_OUTLT_XREF",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "VIP_DATA_T.VIP_WSLR_OUTLT",
-    "newFieldName": "DIMENSIONS.VIP.VIP_WSLR_OUTLT"
+    "newFieldName": "DIMENSIONS.VIP.VIP_WSLR_OUTLT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "WSLR_NJ_T.WSLR_ADDR",
-    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_ADDR"
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_ADDR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "WSLR_NJ_T.WSLR_CNTCT",
-    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CNTCT"
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CNTCT",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "WSLR_T.WSLR_CRCTD_ADDR",
-    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CRCTD_ADDR"
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_CRCTD_ADDR",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "WSLR_T.WSLR_SLS_CAL",
-    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_SLS_CAL"
+    "newFieldName": "DIMENSIONS.WHOLESALER.WSLR_SLS_CAL",
+    "newFieldLink": "https://www.google.com/"
   },
   {
     "oldFieldName": "WSLR_T.WSLR_TERR",
-    "newFieldName": "DIMENSIONS.RETAILER.WSLR_TERR"
+    "newFieldName": "DIMENSIONS.RETAILER.WSLR_TERR",
+    "newFieldLink": "https://www.google.com/"
   }
 ]
